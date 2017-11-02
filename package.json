@@ -1,0 +1,32 @@
+{
+  "name": "ope_calculadoraJS",
+  "version": "0.1.0",
+  "description": "Operaciones matematicas simples()\u001b[D+, -, *, /)",
+  "main": "dist/src/calculado.js",
+  "scripts": {
+    "build": "babel src/calculado.js -d dist",
+    "test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sombra1452/ope_calculadoraJS.git"
+  },
+  "keywords": [
+    "calculadora",
+    "js",
+    "SMdigital",
+    "platzi"
+  ],
+  "author": "Willy Carvajal <willy@gedi.com.co> (https://www.facebook.com/willy.carvajalbotero)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sombra1452/ope_calculadoraJS/issues"
+  },
+  "homepage": "https://github.com/sombra1452/ope_calculadoraJS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
