@@ -3,8 +3,8 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.default = ope_calculadoraJS;
-function ope_calculadoraJS(N, M) {
+exports.default = ope_calculadorajs;
+function ope_calculadorajs(N, M) {
 
     var ops = {
         sumar: function sumarNumeros() {
